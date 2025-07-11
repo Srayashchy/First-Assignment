@@ -23,7 +23,7 @@ nav{
   padding: 10px;
   font-size: 16px;
   margin: 4px 2px;
-  border-radius: 10px; ;
+  border-radius: 10px;
 }
 .button_decoration:hover{
    background-color: blueviolet;  
@@ -53,3 +53,44 @@ nav{
       box-shadow:
      
        }
+   .card {
+    text-align: center;
+      padding: 50px 20px;
+    }
+    .skill{
+        border-radius: 10px;
+    padding: 30px 50px;
+    text-align: center;
+    margin-top: px;
+    }
+
+    .Center{
+        text-align: center;
+        padding: 20px;
+        border: 2px;
+        border-radius: 12px;
+        background-color: #e2d6d6;
+        width: 90%
+        max: width 600px;
+        box-shadow: rgba(0,0,0,0.1)
+    }
+  .btn{
+    background-color: #4E47FF;
+  color: white;
+  border: none;
+  padding: 10px;
+  font-size: 16px;
+  margin: 20px;
+  border-radius: 10px; 
+  
+  justify-content: center;  
+  }
+  .btn:hover{
+   background-color: blueviolet;  
+}
+
+    .Img{
+        max-width:x;
+        border-radius: 20px;
+
+    }
