@@ -25,6 +25,31 @@ nav{
   margin: 4px 2px;
   border-radius: 10px; ;
 }
+.button_decoration:hover{
+   background-color: blueviolet;  
+}
+
 .benner {
     text-align: center;
 }
+.contains{
+    display: flex;
+      align-items: center;
+      justify-content: space-around;
+      padding: 40px 20px;
+}
+.contain{
+    font-size: 30px;
+}
+.contain_list{
+        font-weight: lighter;
+        color: #5e5252;
+        font-size: 25px;;
+       }
+
+       .Webflow{
+          width: 300px;
+      border-radius: 20px;
+      box-shadow:
+     
+       }
