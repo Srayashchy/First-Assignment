@@ -44,7 +44,7 @@ nav{
 .contain_list{
         font-weight: lighter;
         color: #5e5252;
-        font-size: 25px;;
+        font-size: 25px;
        }
 
        .Webflow{
@@ -53,6 +53,47 @@ nav{
       box-shadow:
      
        }
+
+             .Users{
+                text-align: center;
+                padding: 50px 20px ;
+                max-width: 600;
+                background-color:#e2d6d6 ;
+                justify-content: center;
+            box-shadow: rgb(221, 216, 216);
+            border-radius: 10px;
+            margin: auto;
+            
+             }
+             .Users h2{
+                font-size: 25px;
+                color:#4E47FF ;
+
+             }
+
+           .user{
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            flex-wrap: wrap;
+        } 
+        .user div{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        } 
+        
+         .Num{
+                   font-weight: bold;
+                   font-size: 50px;
+                    color:#4E47FF
+         }
+  .lable{
+    font-weight: lighter;
+        color: #5e5252;
+        font-size: 20px;
+  }
+
    .card {
     text-align: center;
       padding: 50px 20px;
@@ -93,4 +134,21 @@ nav{
         max-width:x;
         border-radius: 20px;
 
+    }
+    input[type="text"]{
+        height: 64px;
+        background-color: white;
+        display: block;
+        width:100%;
+        padding: 10px 20px;
+    }
+
+    footer{
+        padding: 130px 230px;
+        display: flex;
+        gap: 100px;
+
+    }
+    .footer-column{
+        width: 50%;
     }
