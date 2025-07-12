@@ -1,6 +1,7 @@
 
 .header{
     background-image: url(Assets/Hero-bg.png);
+     border-radius: 50px;
 }
 nav{
     
@@ -8,6 +9,7 @@ nav{
     aline-items:center;
     justify-content: space-between;
     margin: 50px 200px;
+    
 
 }
 .nav_Logo{
@@ -49,8 +51,8 @@ nav{
 
        .Webflow{
           width: 300px;
-      border-radius: 20px;
-      box-shadow:
+       border-radius: 50px;
+     
      
        }
 
@@ -61,7 +63,7 @@ nav{
                 background-color:#e2d6d6 ;
                 justify-content: center;
             box-shadow: rgb(221, 216, 216);
-            border-radius: 10px;
+           border-radius: 50px;
             margin: auto;
             
              }
@@ -94,22 +96,75 @@ nav{
         font-size: 20px;
   }
 
-   .card {
+  .Reviewer{
+   text-align: center;
+                padding: 50px 20px ;
+                max-width: 600;
+                background-color:blanchedalmond;
+                justify-content: center;
+            box-shadow: rgb(221, 216, 216);
+             border-radius: 50px;
+            margin: auto;
+             
+   
+  }
+   .title{
     text-align: center;
-      padding: 50px 20px;
-    }
-    .skill{
-        border-radius: 10px;
-    padding: 30px 50px;
+    font-weight: bold;
+    font-size: 30px;
+}
+   
+.hol{
+    display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            display: flex;
+      align-items: center;
+      padding: 40px 20px;
+    border-right: 150px;
+}
+.box {
+    background-color: azure;
+    padding: 20px;
+    width:300px;
+    text-align:  center;
+    
+        }
+.star{
+    width: 100px;
+   
+    margin-right: 2px;
+}
+.title_inner{
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    
+
+}
+.reviewer_info{
+    display: flex;
+    align-content: center;
+    gap: 10px;
     text-align: center;
-    margin-top: px;
-    }
+    justify-content: center;
+
+}
+.reviewer_info img{
+    width: 80px;
+
+}
+.reviewer_info p{
+    font-size: 1;
+
+}
+
 
     .Center{
         text-align: center;
         padding: 20px;
         border: 2px;
-        border-radius: 12px;
+        border-radius: 50px;
         background-color: #e2d6d6;
         width: 90%
         max: width 600px;
@@ -131,24 +186,55 @@ nav{
 }
 
     .Img{
-        max-width:x;
+        max-width: 100%;
         border-radius: 20px;
 
     }
-    input[type="text"]{
-        height: 64px;
-        background-color: white;
-        display: block;
-        width:100%;
-        padding: 10px 20px;
-    }
+     .From{
+        box-sizing: border-box;
+         border-radius: 50px;
+       
+        display: flex;
+        align-items: center;
+        padding: 40px;
+        background-color: bisque;
+        justify-content: center;
+        
+     }
 
+     .From h2{
+        font-size: 50px;
+        font-weight: bold;
+        margin-right: 150px;
+     }
+
+     .From_info{
+        flex: ;
+     }
+
+     label{
+        margin-bottom: 20px;
+        font-weight: bold;
+
+     }
+
+     input,textarea{
+        margin-bottom: 15px;
+        transition: cubic-bezier(0.075, 0.82, 0.165, 1);
+        padding: 10px;
+         border-radius: 50px;
+     }
     footer{
+
+
         padding: 130px 230px;
         display: flex;
         gap: 100px;
+        border-radius: 50px;
+background-color: rgb(254, 254, 254);
 
     }
-    .footer-column{
-        width: 50%;
+   
+    .section_title{
+        font-weight: bold;
     }
